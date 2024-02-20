@@ -1,0 +1,42 @@
+.section_visa{
+   
+    border-top: 2rem solid rgba(0, 0, 0, 0.076);
+}
+.visa__container{
+    display: grid;
+    row-gap: 2rem;
+   
+}
+.visa__container .section__title-1 {
+    font-size: 2rem;
+    color:black;
+    font-family: var(--body-font);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.visa__container .content{
+  
+  
+}
+.visa__article{
+    width: 70%;
+    display: grid;
+   row-gap: 2rem;
+}
+.visa_article__container{
+    display: flex;
+    column-gap: 4rem;
+}
+
+.visa__aside{
+
+
+}
+.visa__image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    width: 100%;
+}
